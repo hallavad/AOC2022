@@ -1,5 +1,4 @@
-﻿
-open Aochelper
+﻿open Aochelper
 
 let input = puzzleInput 1
 
@@ -12,8 +11,7 @@ let folder (cal: int, elfCalories) (nextInput: string) =
 let elfCalories = snd <| Array.fold folder (0,[]) input
 
 List.max elfCalories
-    |> string
-    |> submitAnswer 1 1
+    |> submitAnswerInt 1 1
 
 List.sortDescending elfCalories
     |> List.take 3
