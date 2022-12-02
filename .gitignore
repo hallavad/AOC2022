@@ -1,6 +1,7 @@
 /input
 /token.env
-*/obj
-*/bin
+**/obj
+**/bin
 .fake
-.config/dotnet-tools.json
+.config
+.vscode

@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Lucas Glimfjord",
+  "classifications": [ "Common", "Console" ],
+  "identity": "AOC.ConsoleTemplate.FSharp",
+  "name": "Advent of Code template",
+  "shortName": "aoc",
+  "tags": {
+    "language": "F#",
+    "type": "item"
+  },
+  "preferNameDirectory": true,
+  "sourceName": "aoc.Template"
+}
