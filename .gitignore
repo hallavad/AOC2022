@@ -3,3 +3,4 @@
 */obj
 */bin
 .fake
+.config/dotnet-tools.json
