@@ -1,10 +1,12 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Aochelper", "Aochelper\Aochelper.fsproj", "{C730D3F9-60EC-4D00-9F46-E4447FEEF5FF}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "day01", "day01\day01.fsproj", "{11235086-39EA-4AF5-99DC-EAA075ADD66E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "day02", "day02\day02.fsproj", "{D9ED9F5A-2BA3-48C3-ADCD-D3AAD20274DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,5 +25,9 @@ Global
 		{11235086-39EA-4AF5-99DC-EAA075ADD66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11235086-39EA-4AF5-99DC-EAA075ADD66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11235086-39EA-4AF5-99DC-EAA075ADD66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9ED9F5A-2BA3-48C3-ADCD-D3AAD20274DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9ED9F5A-2BA3-48C3-ADCD-D3AAD20274DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9ED9F5A-2BA3-48C3-ADCD-D3AAD20274DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9ED9F5A-2BA3-48C3-ADCD-D3AAD20274DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
