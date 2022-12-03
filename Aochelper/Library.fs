@@ -40,8 +40,9 @@ let printAnswerResponse (resp: string) =
 let submitAnswer (day: int) (p: int) (ans: string) =
     let a = sendAnswer (day, p) ans
     a |> printAnswerResponse
+    printfn "%s" ans
 
-let submitAnswerInt (day: int) (p: int) (ans: int) = submitAnswer day p <| string(int)
+let submitAnswerInt (day: int) (p: int) (ans: int) = submitAnswer day p <| string(ans)
 
 //
 // Functions for getting input
@@ -68,3 +69,8 @@ let puzzleInput (day : int) =
         let input = requestInput day
         saveInput day input
     readInput day
+
+
+// helpful functions
+let curry f a b = f (a, b)
+let uncurry f (a,b) = f a b
