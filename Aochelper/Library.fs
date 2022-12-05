@@ -74,3 +74,7 @@ let puzzleInput (day : int) =
 // helpful functions
 let curry f a b = f (a, b)
 let uncurry f (a,b) = f a b
+
+let listToTuple = function
+    | (a::b::xs) -> (a,b)
+    | _ -> failwith "unreachable"
